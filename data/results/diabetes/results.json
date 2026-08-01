@@ -1,0 +1,86 @@
+{
+  "dataset": "diabetes",
+  "display_name": "Diabetes",
+  "best_model_name": "SVM (RBF)",
+  "best_metrics": {
+    "accuracy": 0.7272727272727273,
+    "precision": 0.5967741935483871,
+    "recall": 0.6851851851851852,
+    "f1": 0.6379310344827587,
+    "roc_auc": 0.8113888888888888
+  },
+  "all_metrics": {
+    "Logistic Regression": {
+      "accuracy": 0.7142857142857143,
+      "precision": 0.5806451612903226,
+      "recall": 0.6666666666666666,
+      "f1": 0.6206896551724138,
+      "roc_auc": 0.8114814814814815
+    },
+    "SVM (RBF)": {
+      "accuracy": 0.7272727272727273,
+      "precision": 0.5967741935483871,
+      "recall": 0.6851851851851852,
+      "f1": 0.6379310344827587,
+      "roc_auc": 0.8113888888888888
+    },
+    "Random Forest": {
+      "accuracy": 0.7272727272727273,
+      "precision": 0.5967741935483871,
+      "recall": 0.6851851851851852,
+      "f1": 0.6379310344827587,
+      "roc_auc": 0.8177777777777777
+    },
+    "XGBoost": {
+      "accuracy": 0.7272727272727273,
+      "precision": 0.603448275862069,
+      "recall": 0.6481481481481481,
+      "f1": 0.625,
+      "roc_auc": 0.817962962962963
+    },
+    "Random Forest (Tuned)": {
+      "accuracy": 0.7272727272727273,
+      "precision": 0.5967741935483871,
+      "recall": 0.6851851851851852,
+      "f1": 0.6379310344827587,
+      "roc_auc": 0.8177777777777777
+    },
+    "XGBoost (Tuned)": {
+      "accuracy": 0.7077922077922078,
+      "precision": 0.576271186440678,
+      "recall": 0.6296296296296297,
+      "f1": 0.6017699115044248,
+      "roc_auc": 0.7946296296296297
+    }
+  },
+  "cv_scores": {
+    "Logistic Regression": {
+      "mean_f1": 0.7290049661967232,
+      "std_f1": 0.01994277756828922
+    },
+    "SVM (RBF)": {
+      "mean_f1": 0.7906297448166779,
+      "std_f1": 0.02962887013688352
+    },
+    "Random Forest": {
+      "mean_f1": 0.8344558801565103,
+      "std_f1": 0.05804442037174163
+    },
+    "XGBoost": {
+      "mean_f1": 0.7964038770120997,
+      "std_f1": 0.0805401618008316
+    }
+  },
+  "feature_names": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age"
+  ],
+  "model_path": "C:\\Users\\dsris\\.gemini\\antigravity-ide\\scratch\\disease-prediction\\models\\diabetes_best_model.pkl",
+  "elapsed_seconds": 164.72752857208252
+}

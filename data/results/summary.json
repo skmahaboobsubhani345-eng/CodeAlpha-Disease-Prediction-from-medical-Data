@@ -1,0 +1,32 @@
+{
+  "heart_disease": {
+    "best_model": "Random Forest",
+    "metrics": {
+      "accuracy": 0.9016393442622951,
+      "precision": 0.84375,
+      "recall": 0.9642857142857143,
+      "f1": 0.9,
+      "roc_auc": 0.9448051948051948
+    }
+  },
+  "diabetes": {
+    "best_model": "SVM (RBF)",
+    "metrics": {
+      "accuracy": 0.7272727272727273,
+      "precision": 0.5967741935483871,
+      "recall": 0.6851851851851852,
+      "f1": 0.6379310344827587,
+      "roc_auc": 0.8113888888888888
+    }
+  },
+  "breast_cancer": {
+    "best_model": "XGBoost (Tuned)",
+    "metrics": {
+      "accuracy": 0.9824561403508771,
+      "precision": 1.0,
+      "recall": 0.9523809523809523,
+      "f1": 0.975609756097561,
+      "roc_auc": 0.9943783068783069
+    }
+  }
+}

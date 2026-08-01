@@ -1,0 +1,91 @@
+{
+  "dataset": "heart_disease",
+  "display_name": "Heart Disease",
+  "best_model_name": "Random Forest",
+  "best_metrics": {
+    "accuracy": 0.9016393442622951,
+    "precision": 0.84375,
+    "recall": 0.9642857142857143,
+    "f1": 0.9,
+    "roc_auc": 0.9448051948051948
+  },
+  "all_metrics": {
+    "Logistic Regression": {
+      "accuracy": 0.8688524590163934,
+      "precision": 0.8125,
+      "recall": 0.9285714285714286,
+      "f1": 0.8666666666666667,
+      "roc_auc": 0.945887445887446
+    },
+    "SVM (RBF)": {
+      "accuracy": 0.8524590163934426,
+      "precision": 0.8064516129032258,
+      "recall": 0.8928571428571429,
+      "f1": 0.847457627118644,
+      "roc_auc": 0.946969696969697
+    },
+    "Random Forest": {
+      "accuracy": 0.9016393442622951,
+      "precision": 0.84375,
+      "recall": 0.9642857142857143,
+      "f1": 0.9,
+      "roc_auc": 0.9448051948051948
+    },
+    "XGBoost": {
+      "accuracy": 0.8524590163934426,
+      "precision": 0.7878787878787878,
+      "recall": 0.9285714285714286,
+      "f1": 0.8524590163934426,
+      "roc_auc": 0.920995670995671
+    },
+    "Random Forest (Tuned)": {
+      "accuracy": 0.9016393442622951,
+      "precision": 0.84375,
+      "recall": 0.9642857142857143,
+      "f1": 0.9,
+      "roc_auc": 0.961038961038961
+    },
+    "XGBoost (Tuned)": {
+      "accuracy": 0.8524590163934426,
+      "precision": 0.7878787878787878,
+      "recall": 0.9285714285714286,
+      "f1": 0.8524590163934426,
+      "roc_auc": 0.9307359307359307
+    }
+  },
+  "cv_scores": {
+    "Logistic Regression": {
+      "mean_f1": 0.8166289592760181,
+      "std_f1": 0.034237729312476844
+    },
+    "SVM (RBF)": {
+      "mean_f1": 0.8206078431372548,
+      "std_f1": 0.03376197297131497
+    },
+    "Random Forest": {
+      "mean_f1": 0.8062794046501038,
+      "std_f1": 0.03650583396869748
+    },
+    "XGBoost": {
+      "mean_f1": 0.8076600548298662,
+      "std_f1": 0.020684724022593394
+    }
+  },
+  "feature_names": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "model_path": "C:\\Users\\dsris\\.gemini\\antigravity-ide\\scratch\\disease-prediction\\models\\heart_disease_best_model.pkl",
+  "elapsed_seconds": 117.91156601905823
+}
